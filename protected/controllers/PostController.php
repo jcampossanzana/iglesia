@@ -32,12 +32,12 @@ class PostController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'verImagen'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -51,8 +51,10 @@ class PostController extends Controller
 	 */
 	public function actionView($id)
 	{
+		$bean = $this->loadModel($id);
+		$bean->getImage();
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$bean,
 		));
 	}
 
@@ -101,6 +103,13 @@ class PostController extends Controller
 		$this->render('update',array(
 			'model'=>$model,
 		));
+	}
+	
+	public function actionVerImagen($id){
+		$model = $this->loadModel($id);
+		$imagen = $model->getImage();
+				header("Content-type: ".$imagen->tipo);
+                echo $imagen->archivo;
 	}
 
 	/**

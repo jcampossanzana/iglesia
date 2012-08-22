@@ -1164,3 +1164,531 @@ in C:\xampp\htdocs\iglesia\index.php (13)
 2012/08/20 04:57:40 [warning] [application] Failed to set unsafe attribute "image" of "Post".
 in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
 in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 04:58:57 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSimpleImage" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-framework\framework\YiiBase.php:318
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii-framework\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-framework\framework\base\CModule.php(104): CModule->getComponent('simpleImage')
+#3 C:\xampp\htdocs\iglesia\protected\extensions\thumbnailer\Thumbnailer.php(43): CModule->__get('simpleImage')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): Thumbnailer->run()
+#5 C:\xampp\htdocs\iglesia\protected\views\site\index.php(35): CBaseController->endWidget()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#10 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#11 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('')
+#16 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iglesia/
+---
+2012/08/22 05:06:21 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.CSimpleImage" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-framework\framework\YiiBase.php:318
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\YiiBase.php(198): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii-framework\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-framework\framework\base\CModule.php(104): CModule->getComponent('simpleImage')
+#3 C:\xampp\htdocs\iglesia\protected\extensions\thumbnailer\Thumbnailer.php(43): CModule->__get('simpleImage')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): Thumbnailer->run()
+#5 C:\xampp\htdocs\iglesia\protected\views\site\index.php(34): CBaseController->endWidget()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#10 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#11 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('')
+#16 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#17 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iglesia/
+---
+2012/08/22 05:18:00 [error] [php] Undefined variable: post (C:\xampp\htdocs\iglesia\protected\views\site\index.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (23)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('posts')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/posts
+---
+2012/08/22 05:19:57 [error] [php] Undefined variable: modelo (C:\xampp\htdocs\iglesia\protected\views\post\_form.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): PostController->renderFile()
+#1 C:\xampp\htdocs\iglesia\protected\views\post\create.php(18): PostController->renderPartial()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): PostController->renderInternal()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): PostController->renderFile()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): PostController->renderPartial()
+#6 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(79): PostController->render()
+#7 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\views\post\_form.php (31)
+in C:\xampp\htdocs\iglesia\protected\views\post\create.php (18)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (79)
+2012/08/22 05:20:09 [error] [exception.CException] exception 'CException' with message 'Editor cannot find the view "".' in C:\xampp\htdocs\yii-framework\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\extensions\editor\editor.php(58): CWidget->render(NULL, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(174): Editor->run()
+#2 C:\xampp\htdocs\iglesia\protected\views\post\_form.php(32): CBaseController->widget('application.ext...', Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\iglesia\protected\views\post\create.php(18): CController->renderPartial('_form', Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#11 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(79): CController->render('create', Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('create')
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/create')
+#23 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/iglesia/index.php/post/create
+HTTP_REFERER=http://localhost/iglesia/index.php/site/login
+---
+2012/08/22 05:38:47 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:40:52 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:41:12 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:41:33 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:42:05 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:43:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/post/admin
+HTTP_REFERER=http://localhost/iglesia/index.php/post/index
+---
+2012/08/22 05:44:12 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (96)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:46:37 [error] [exception.CException] exception 'CException' with message 'Property "Post.fieldName" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('fieldName')
+#1 C:\xampp\htdocs\iglesia\protected\views\post\_form.php(52): CActiveRecord->__get('fieldName')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\iglesia\protected\views\post\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/create')
+#22 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/iglesia/index.php/post/create
+HTTP_REFERER=http://localhost/iglesia/index.php/post/index
+---
+2012/08/22 05:47:18 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (72)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 05:48:51 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (96)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/22 06:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imagen".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('imagen')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('imagen')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/imagen')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/post/imagen/4
+HTTP_REFERER=http://localhost/iglesia/index.php/post/4
+---
+2012/08/22 06:15:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:15:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:16:19 [error] [exception.CException] exception 'CException' with message 'Post and its behaviors do not have a method or closure named "getImagen".' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getImagen', Array)
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): CActiveRecord->__call('getImagen', Array)
+#2 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): Post->getImagen()
+#3 [internal function]: PostController->actionVerImagen('4')
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:16:45 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.file_size" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('file_size')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(115): CActiveRecord->__get('file_size')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:19:29 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(121): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:19:35 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(121): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:20:25 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(119): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:22:47 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(112): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:23:15 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(112): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:23:16 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(112): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('4')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+---
+2012/08/22 06:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:164
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): PostController->loadModel('5')
+#1 [internal function]: PostController->actionVerImagen('5')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/5
+---
+2012/08/22 06:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:164
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): PostController->loadModel('8888')
+#1 [internal function]: PostController->actionVerImagen('8888')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/8888
+---
+2012/08/22 06:23:39 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(112): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('3')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/3
+---
+2012/08/22 06:25:32 [error] [exception.CException] exception 'CException' with message 'Property "Archivo.content" is not defined.' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('content')
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(112): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionVerImagen('2')
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#15 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/2
+---
+2012/08/22 06:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:164
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): PostController->loadModel('8888')
+#1 [internal function]: PostController->actionVerImagen('8888')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/8888
+---

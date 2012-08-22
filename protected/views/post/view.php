@@ -28,3 +28,9 @@ $this->menu=array(
 		'imagen',
 	),
 )); ?>
+
+view detail foto <br/>
+<?php
+	$dbImage = $this->createUrl('post/verImagen/4'); 
+	echo CHtml::image($dbImage,'image');
+?>

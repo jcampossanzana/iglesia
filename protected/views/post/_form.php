@@ -24,8 +24,18 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'content'); ?>
+		<?php 
+			$this->widget('application.extensions.cleditor.ECLEditor', array(
+				'model'=>$model,
+				'attribute'=>'content', //Model attribute name. Nome do atributo do modelo.
+				'options'=>array(
+					'width'=>'600',
+					'height'=>250,
+					'useCSS'=>true,
+				),
+				'value'=>$model->content, //If you want pass a value for the widget. I think you will. Se você precisar passar um valor para o gadget. Eu acho irá.
+			));
+			?>
 	</div>
 
 	<div class="row">
@@ -42,6 +52,7 @@
 	<?php
 		echo $form->fileField($model, 'image');
 		echo $form->error($model,'image');
+		
 	?>
 	</div>
 

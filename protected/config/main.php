@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.EGalleria.*'
 	),
 
 	'modules'=>array(
@@ -30,9 +31,6 @@ return array(
 
 	// application components
 	'components'=>array(
-		'simpleImage'=>array(
-                        'class' => 'application.extensions.CSimpleImage',
-                ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

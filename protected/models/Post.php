@@ -64,6 +64,13 @@ class Post extends CActiveRecord
 			'imagen0' => array(self::BELONGS_TO, 'Archivos', 'imagen'),
 		);
 	}
+	
+	public function getImage(){
+		$id_imagen = $this->imagen;
+		$imagen = Archivo::model()->find('id_archivo=:id_imagen', array(':id_imagen'=>$id_imagen));
+		$this->image = imagecreatefromstring(base64_decode($imagen->archivo));
+		return $imagen;
+	}
 
 	/**
 	 * @return array customized attribute labels (name=>label)
@@ -71,10 +78,10 @@ class Post extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_post' => 'Id Post',
-			'title' => 'Title',
-			'content' => 'Content',
-			'status' => 'Status',
+			'id_post' => 'id',
+			'title' => 'Titulo del Post',
+			'content' => 'Contenido',
+			'status' => 'Estado de Publicacion',
 			'imagen' => 'Imagen',
 		);
 	}
@@ -100,6 +107,7 @@ class Post extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
 	
 	public function beforeSave(){
 		if($file=CUploadedFile::getInstance($this,'image')){

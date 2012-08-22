@@ -24,6 +24,4 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('imagen')); ?>:</b>
 	<?php echo CHtml::encode($data->imagen); ?>
 	<br />
-
-
 </div>
