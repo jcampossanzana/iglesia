@@ -108,8 +108,12 @@ class PostController extends Controller
 	public function actionVerImagen($id){
 		$model = $this->loadModel($id);
 		$imagen = $model->getImage();
-				header("Content-type: ".$imagen->tipo);
-                echo $imagen->archivo;
+		if($imagen != null){
+			header('Content-Type: '.$imagen->tipo);
+			echo $imagen->archivo;
+		} else {
+			echo "no existe";
+		}
 	}
 
 	/**

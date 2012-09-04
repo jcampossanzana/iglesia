@@ -1,13 +1,14 @@
 <?php
 
 /**
- * This is the model class for table "menu".
+ * This is the model class for table "Menu".
  *
- * The followings are the available columns in table 'menu':
+ * The followings are the available columns in table 'Menu':
  * @property string $id_menu
  * @property string $title
  * @property string $link
  * @property integer $parent
+ * @property integer $weight
  */
 class Menu extends CActiveRecord
 {
@@ -26,7 +27,7 @@ class Menu extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'menu';
+		return 'Menu';
 	}
 
 	/**
@@ -37,12 +38,12 @@ class Menu extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('parent', 'numerical', 'integerOnly'=>true),
+			array('parent, weight', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>30),
 			array('link', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id_menu, title, link, parent', 'safe', 'on'=>'search'),
+			array('id_menu, title, link, parent, weight', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,6 +68,7 @@ class Menu extends CActiveRecord
 			'title' => 'Title',
 			'link' => 'Link',
 			'parent' => 'Parent',
+			'weight' => 'Weight',
 		);
 	}
 
@@ -85,15 +87,8 @@ class Menu extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('link',$this->link,true);
 		$criteria->compare('parent',$this->parent);
+		$criteria->compare('weight',$this->weight);
 
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
-	}
-	
-	public function getParents(){
-		$criteria=new CDbCriteria;
-		$criteria->compare('parent', null);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

@@ -1,20 +1,68 @@
-<?php
-/* @var $this SiteController */
-
-$this->pageTitle=Yii::app()->name;
+<?php $this->pageTitle=Yii::app()->name;?>
+	<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+<?php	$this->widget('application.extensions.nivoslider.CNivoSlider', array(
+		'htmlOptions'=>array('style'=>'width: 610px; height: 240px;margin:0 auto;', 'class' => 'shadow'),
+		'images'=>array( //@array images with images arrays.
+				array(
+						'src'=> Yii::app()->request->baseUrl.'/images/nemo.jpg',
+						'caption'=>'Picture two',
+						'linkOptions'=>array(),
+					
+				),
+				
+				array(
+						'src'=> Yii::app()->request->baseUrl.'/images/walle.jpg',
+						'caption'=>'Picture two',
+						'linkOptions'=>array(),
+					
+				),
+				
+				array(
+						'src'=> Yii::app()->request->baseUrl.'/images/toystory.jpg',
+						'caption'=>'Picture two',
+						'linkOptions'=>array(),
+					
+				),
+				
+				array(
+						'src'=> Yii::app()->request->baseUrl.'/images/up.jpg',
+						'caption'=>'Picture two',
+						'linkOptions'=>array(),
+					
+				),
+			)
+		)
+	);
 ?>
+</div>
+</div>
+<div id="destacado">
+	<div class="post"><h1>Bienvenidos!!</h1></div>
+	<p>Le damos la bienvenida al sitio de la Iglesia Adventista de Vi&ntilde;a del Mar, aqui encontrar&aacute; informaciones y recursos para participar en las diferentes actividades que se llevan a cabo en la iglesia.</p>
+	<p align="center"><em>Que Dios les bendiga!</em></p>
+	<div id="destacado-right"></div>
+	<div id="desctacado-left"></div>
+</div>
+<div id="elements">
+<?php 
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+$posts = Post::model()->findAll();
+foreach($posts as $post){?>
+	<div id="item" class="shadow">
+	<span class="item-title" ><?php echo $post->title;?></span><br/>
+	<?php
+		$this->widget('ext.lorempixel.LoremPixel', array(
+			'width'         => 230,
+			'height'        => 150,
+		)); 
+	?>
+	
+	<p><?php echo $post->content;?></p>
+	<p align="left"><a href="#">Ver m&aacute;s ...</a></p>
+	</div>
+	
+	<?php
+}
+?>
+</div>

@@ -51,11 +51,14 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost:3306;dbname=testiglesia',
+			'connectionString' => 'mysql:host=127.0.0.1:3306;dbname=testiglesia',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+			'initSQLs' => array(
+				'set global max_allowed_packet = 1500000', // 1500000 - your value (if you have permissions to change this value - it helps)
+			),
 		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -69,9 +72,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
+				/*
 				array(
 					'class'=>'CWebLogRoute',
 				),
+				*/
 			),
 		),
 	),

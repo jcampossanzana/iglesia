@@ -32,7 +32,7 @@
 		echo $form->labelEx($model,'parent');  
 		echo $form->dropDownList($model,'parent', 
 			CHtml::listData(
-				Menu::model()->findAll('parent IS NULL'), 
+				Menu::model()->findAll('parent IS NULL ORDER BY weight DESC'), 
 				'id_menu', //value
 				'title' //text to show
 				), 
@@ -41,6 +41,18 @@
 		echo $form->error($model,'parent'); 
 		
 		?>
+	</div>
+
+	<div class="row">
+		Indique el peso del menu. 
+		<?php echo $form->textField($model,'weight'); ?>
+		<?php echo $form->error($model,'weight'); ?>
+		<br/>
+		<div class="hint">
+			El peso define el orden en que este &iacute;tem aparecer&aacute; en el men&uacute;.<br/>
+			Valores posibles 0 - 9. Cero representa de los primeros y 9 de los &uacute;ltimos.<br/>
+			Cuando este campo no se asigna, por defecto el sistema lo deja como &uacute;ltimo.
+		</div>
 	</div>
 
 	<div class="row buttons">

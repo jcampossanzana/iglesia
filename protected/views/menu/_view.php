@@ -21,5 +21,9 @@
 	<?php echo CHtml::encode($data->parent); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('weight')); ?>:</b>
+	<?php echo CHtml::encode($data->weight); ?>
+	<br />
+
 
 </div>

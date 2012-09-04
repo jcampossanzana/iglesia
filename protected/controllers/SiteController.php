@@ -35,6 +35,13 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+	
+	public function actionPost(){
+	}
+	
+	public function actionEnlaces(){
+		$this->render('links');
+	}
 
 	/**
 	 * This is the action to handle external exceptions.

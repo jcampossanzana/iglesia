@@ -30,17 +30,14 @@ class MenuController extends Controller
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
 				'users'=>array('@'),
-				'expression' => 'isset($user->role) && ($user->role==="admin")'
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
 				'users'=>array('@'),
-				'expression' => 'isset($user->role) && ($user->role==="admin")'
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
 				'users'=>array('@'),
-				'expression' => 'isset($user->role) && ($user->role==="admin")'
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -52,8 +49,7 @@ class MenuController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
-	{
+	public function actionView($id){
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -63,15 +59,13 @@ class MenuController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
-	{
+	public function actionCreate(){
 		$model=new Menu;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Menu']))
-		{
+		if(isset($_POST['Menu'])){
 			$model->attributes=$_POST['Menu'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id_menu));

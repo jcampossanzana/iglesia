@@ -1692,3 +1692,2217 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/iglesia/index.php/post/verImagen/8888
 ---
+2012/08/25 02:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('posts')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/posts
+---
+2012/08/25 02:26:29 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:71)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/post/view/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (71)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:27:08 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:71)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (71)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:28:27 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:71)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/3
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (71)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:31:59 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:72)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (72)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:32:02 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:72)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/3
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (72)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:32:16 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:72)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (72)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:33:25 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:73)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (73)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:33:28 [error] [php] imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Empty string or invalid image (C:\xampp\htdocs\iglesia\protected\models\Post.php:73)
+Stack trace:
+#0 unknown(0): PostController->actionView()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (73)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (55)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:35:51 [error] [exception.CException] exception 'CException' with message 'Post and its behaviors do not have a method or closure named "getImage".' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getImage', Array)
+#1 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(55): CActiveRecord->__call('getImage', Array)
+#2 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(55): Post->getImage()
+#3 [internal function]: PostController->actionView('4')
+#4 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('view')
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/view')
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/iglesia/index.php/post/4
+---
+2012/08/25 02:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:166
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): PostController->loadModel('5')
+#1 [internal function]: PostController->actionVerImagen('5')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/5
+---
+2012/08/25 02:46:53 [error] [php] base64_encode() expects parameter 1 to be string, object given (C:\xampp\htdocs\iglesia\protected\models\Post.php:73)
+Stack trace:
+#0 unknown(0): PostController->actionVerImagen()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (73)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (110)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:47:21 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (111)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:47:43 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (111)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:47:55 [error] [php] base64_encode() expects parameter 1 to be string, object given (C:\xampp\htdocs\iglesia\protected\models\Post.php:73)
+Stack trace:
+#0 unknown(0): PostController->actionVerImagen()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (73)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (110)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:52:23 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:111)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (111)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 02:52:33 [error] [php] base64_encode() expects parameter 1 to be string, object given (C:\xampp\htdocs\iglesia\protected\models\Post.php:73)
+Stack trace:
+#0 unknown(0): PostController->actionVerImagen()
+#1 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (73)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (110)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 03:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:167
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(109): PostController->loadModel('5')
+#1 [internal function]: PostController->actionVerImagen('5')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verImagen')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/verImagen')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/index.php/post/verImagen/5
+---
+2012/08/25 03:59:46 [error] [php] Object of class Archivo could not be converted to string (C:\xampp\htdocs\iglesia\protected\controllers\PostController.php:112)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/verImagen/4
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (112)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:02:18 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (98)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:02:44 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (98)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:33 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:33 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:40 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:40 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:46 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:07:46 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:08:12 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:08:12 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:09:11 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:09:11 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:09:42 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:09:42 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:13:18 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:13:18 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:15:48 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:15:48 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:19:37 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:19:37 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:19:47 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:19:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[08S01]: Communication link failure: 1153 Got a packet bigger than 'max_allowed_packet' bytes. The SQL statement executed was: INSERT INTO `archivos` (`nombre`, `tipo`, `size`, `archivo`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:19:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[08S01]: Communication link failure: 1153 Got a packet bigger than 'max_allowed_packet' bytes. The SQL statement executed was: INSERT INTO `archivos` (`nombre`, `tipo`, `size`, `archivo`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#4 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#5 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): CActiveRecord->save()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('create')
+#16 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('post/create')
+#17 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iglesia/index.php/post/create
+HTTP_REFERER=http://localhost/iglesia/index.php/post/create
+---
+2012/08/25 05:22:44 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:22:44 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:22:49 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 05:22:49 [error] [php] PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: MySQL server has gone away (C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:334)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Archivo->insert()
+#1 C:\xampp\htdocs\iglesia\protected\models\Post.php(117): Archivo->save()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1011): Post->beforeSave()
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(796): Post->insert()
+#4 C:\xampp\htdocs\iglesia\protected\controllers\PostController.php(75): Post->save()
+#5 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): PostController->filterAccessControl()
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): PostController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): PostController->run()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/index.php/post/create
+in C:\xampp\htdocs\iglesia\protected\models\Post.php (117)
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (75)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/08/25 16:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/10
+---
+2012/08/25 16:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/post/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/menu/
+---
+2012/08/25 16:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/post/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/menu/
+---
+2012/08/25 16:08:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/post/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/menu/
+---
+2012/08/25 16:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/post/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/menu/
+---
+2012/08/25 16:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "menu".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('menu')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('menu')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/menu/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/menu/menu/post/
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/menu/
+---
+2012/08/25 16:15:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/menu/admin
+HTTP_REFERER=http://localhost/iglesia/menu
+---
+2012/08/25 16:15:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'weight' in 'order clause'. The SQL statement executed was: SELECT * FROM `menu` `t` WHERE parent IS NULL ORDER BY weight DESC.
+in C:\xampp\htdocs\iglesia\protected\views\menu\_form.php (35)
+in C:\xampp\htdocs\iglesia\protected\views\menu\create.php (18)
+in C:\xampp\htdocs\iglesia\protected\controllers\MenuController.php (79)
+2012/08/25 16:15:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'weight' in 'order clause'. The SQL statement executed was: SELECT * FROM `menu` `t` WHERE parent IS NULL ORDER BY weight DESC' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\iglesia\protected\views\menu\_form.php(35): CActiveRecord->findAll('parent IS NULL ...')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\iglesia\protected\views\menu\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\iglesia\protected\controllers\MenuController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): MenuController->actionCreate()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#21 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('create')
+#23 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/create')
+#24 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/iglesia/index.php/menu/create
+HTTP_REFERER=http://localhost/iglesia/menu
+---
+2012/08/25 16:17:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/menu/admin
+HTTP_REFERER=http://localhost/iglesia/index.php/menu
+---
+2012/08/25 16:26:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC;.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:26:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC;' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->findAll('ORDER BY weight...')
+#4 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#17 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#23 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:26:37 [error] [exception.CException] exception 'CException' with message 'Menu and its behaviors do not have a method or closure named "where".' in C:\xampp\htdocs\yii-framework\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(226): CComponent->__call('where', Array)
+#1 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->__call('where', Array)
+#2 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): Menu->where('ORDER BY weight...')
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#16 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:30:15 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC; LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC; LIMIT 1.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:30:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC; LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC; LIMIT 1' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1396): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->find('ORDER BY weight...')
+#4 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#17 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#23 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:31:10 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC LIMIT 1.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:31:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `Menu` `t` WHERE ORDER BY weight DESC LIMIT 1' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1396): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->find('ORDER BY weight...')
+#4 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#17 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#23 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:31:58 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: ORDER BY weight DESC.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:31:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: ORDER BY weight DESC' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1498): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->findBySql('ORDER BY weight...')
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#16 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:32:33 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\iglesia\protected\views\layouts\main.php:122)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#2 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#3 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): CContentDecorator->run()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): SiteController->endWidget()
+#6 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): SiteController->renderFile()
+#10 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#11 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (122)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:33:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: ORDER BY weight DESC.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:33:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY weight DESC' at line 1. The SQL statement executed was: ORDER BY weight DESC' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->findAllBySql('ORDER BY weight...')
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#16 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:34:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id_menu DESC' at line 1. The SQL statement executed was: ORDER BY id_menu DESC.
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (119)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\main.php (53)
+in C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php (6)
+2012/08/25 16:34:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id_menu DESC' at line 1. The SQL statement executed was: ORDER BY id_menu DESC' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->findAllBySql('ORDER BY id_men...')
+#3 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#16 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#21 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:36:45 [error] [exception.CDbException] exception 'CDbException' with message 'The DB query must contain the "from" portion.' in C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php:550
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(161): CDbCommand->buildQuery(Array)
+#1 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(473): CDbCommand->getText()
+#2 C:\xampp\htdocs\yii-framework\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#3 C:\xampp\htdocs\yii-framework\framework\db\ar\CActiveRecord.php(1521): CDbCommand->queryAll()
+#4 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(119): CActiveRecord->findAllBySql(Array)
+#5 C:\xampp\htdocs\iglesia\protected\views\layouts\main.php(53): print_menu()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-framework\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#10 C:\xampp\htdocs\yii-framework\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#11 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(207): COutputProcessor->run()
+#12 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 C:\xampp\htdocs\iglesia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#14 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\yii-framework\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): CController->render('index')
+#18 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('index')
+#23 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#24 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/iglesia/site/index
+HTTP_REFERER=http://localhost/iglesia/index.php/menu/13
+---
+2012/08/25 16:37:41 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.grid.CListView" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-framework\framework\YiiBase.php:318
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWidgetFactory.php(147): YiiBase::import('zii.widgets.gri...', true)
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(MenuController), 'zii.widgets.gri...', Array)
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 C:\xampp\htdocs\iglesia\protected\views\menu\index.php(19): CBaseController->widget('zii.widgets.gri...', Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\iglesia\protected\controllers\MenuController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): MenuController->actionIndex()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu')
+#20 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/iglesia/menu/
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/08/25 16:37:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/menu/admin
+HTTP_REFERER=http://localhost/iglesia/menu/
+---
+2012/08/25 16:38:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('menu/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/menu/admin
+HTTP_REFERER=http://localhost/iglesia/menu/
+---
+2012/09/01 16:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_1.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_1.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_1.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_1.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_1.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_1.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_1.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_1.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/bg01.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/bg01.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/bg01.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:34:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/bg01.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_2.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_2.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/banner/banner_3.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/banner/b...')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/banner/banner_3.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:36:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('images/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/images/bg01.png
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/bg01.png".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('image/bg01.png')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/image/bg01.png
+---
+2012/09/01 16:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "url3".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('url3')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/index.php/url3
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/orbit.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('css/orbit.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/css/orbit.css
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "url2".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('url2')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/index.php/url2
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/01 16:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/orbit.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('css/orbit.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/css/orbit.css
+HTTP_REFERER=http://localhost/iglesia/index.php/url2
+---
+2012/09/01 16:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/orbit.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('css/orbit.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/css/orbit.css
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/logo.png
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg0...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/bg05.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/orbit.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('css/orbit.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/css/orbit.css
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg0...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/bg05.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/logo.png
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/orbit.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('css/orbit.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/css/orbit.css
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg0...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/bg05.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/logo.png
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/bg0...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/bg05.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/log...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/logo.png
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('images')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('images')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/images/img...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/images/img01.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 16:53:17 [error] [php] Object of class CWebApplication could not be converted to string (C:\xampp\htdocs\iglesia\protected\views\site\index.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (26)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/01 17:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "overflow.jpg".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('overflow.jpg')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('overflow.jpg')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/overflow.j...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/overflow.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 17:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "features.jpg".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('features.jpg')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('features.jpg')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/features.j...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/features.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 17:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captions.jpg".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('captions.jpg')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('captions.jpg')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/captions.j...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/captions.jpg
+HTTP_REFERER=http://localhost/iglesia/site/index
+---
+2012/09/01 17:06:46 [error] [php] Undefined index: caption (C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php:99)
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\views\site\index.php(30): SiteController->widget()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (99)
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (63)
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (30)
+2012/09/01 17:08:23 [error] [php] Undefined index: caption (C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php:99)
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\views\site\index.php(33): SiteController->widget()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (99)
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (63)
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (33)
+2012/09/01 17:09:43 [error] [php] Undefined index: caption (C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php:99)
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\views\site\index.php(34): SiteController->widget()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (99)
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (63)
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (34)
+2012/09/01 17:10:21 [error] [php] Undefined index: caption (C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php:99)
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\views\site\index.php(30): SiteController->widget()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (99)
+in C:\xampp\htdocs\iglesia\protected\extensions\nivoslider\CNivoSlider.php (63)
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (30)
+2012/09/01 17:12:50 [error] [php] Use of undefined constant baseUrl - assumed 'baseUrl' (C:\xampp\htdocs\iglesia\protected\views\site\index.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (26)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/01 18:41:24 [error] [php] include(Yaqii.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii-framework\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\views\site\index.php(8): spl_autoload_call()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#5 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#6 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (8)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/02 17:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asdasd".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('asdasd')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/asdasd
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/02 19:21:41 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/02 19:23:07 [warning] [application] Failed to set unsafe attribute "image" of "Post".
+in C:\xampp\htdocs\iglesia\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/02 19:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/admin/
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/02 19:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asdasd".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('asdasd')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/asdasd
+HTTP_REFERER=http://localhost/iglesia/admin/
+---
+2012/09/02 19:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/admin/
+HTTP_REFERER=http://localhost/iglesia/index.php
+---
+2012/09/02 19:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/admin/
+HTTP_REFERER=http://localhost/iglesia/admin/
+---
+2012/09/04 04:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/admin/
+HTTP_REFERER=http://localhost/iglesia/
+---
+2012/09/04 04:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "links".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('links')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('links')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/links')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/links
+---
+2012/09/04 05:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "$link->link".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('$link->link')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('$link->link')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/$link->lin...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/$link-%3Elink
+HTTP_REFERER=http://localhost/iglesia/site/enlaces
+---
+2012/09/04 05:14:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('links/admin')
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iglesia/index.php/links/admin
+HTTP_REFERER=http://localhost/iglesia/links
+---
+2012/09/04 05:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\LinksController.php:155
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\LinksController.php(55): LinksController->loadModel('5')
+#1 [internal function]: LinksController->actionView('5')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(LinksController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(LinksController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('view')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('links/view')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/links/view/5
+---
+2012/09/04 05:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\iglesia\protected\controllers\LinksController.php:155
+Stack trace:
+#0 C:\xampp\htdocs\iglesia\protected\controllers\LinksController.php(55): LinksController->loadModel('6')
+#1 [internal function]: LinksController->actionView('6')
+#2 C:\xampp\htdocs\yii-framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(LinksController), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(LinksController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-framework\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-framework\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-framework\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('view')
+#13 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('links/view')
+#14 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/iglesia/links/view/6
+---
+2012/09/04 05:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:44:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:46:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:49:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:49:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:50:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:51:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 05:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "adminr".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('adminr')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('adminr')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/adminr')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/adminr
+---
+2012/09/04 06:03:45 [error] [php] Undefined variable: counter (C:\xampp\htdocs\iglesia\protected\views\site\index.php:66)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/index
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (66)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/04 06:04:01 [error] [php] Undefined variable: counter (C:\xampp\htdocs\iglesia\protected\views\site\index.php:66)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\xampp\htdocs\yii-framework\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii-framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/
+in C:\xampp\htdocs\iglesia\protected\views\site\index.php (66)
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\iglesia\index.php (13)

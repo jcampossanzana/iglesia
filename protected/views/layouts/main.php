@@ -18,7 +18,6 @@ Released   : 20081122
 	<meta name="description" content="" />
 	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" rel="stylesheet" />
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/menu.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -116,7 +115,7 @@ Released   : 20081122
 
 <?php 
 	function print_menu(){
-		$menus =  Menu::model()->findAll();
+		$menus =  Menu::model()->findAll(array('order' => 'weight'));
 		foreach($menus as $menuItem){
 			//solo para menus principales
 			if($menuItem->parent == null){
@@ -147,7 +146,7 @@ Released   : 20081122
 		}
 	}
 	function renderItem($item){
-		echo '<a href="'.$item->link.'"><span>'.$item->title.'</span></a>';
+		echo '<a href="'.Yii::app()->request->baseUrl.'/'.$item->link.'"><span>'.$item->title.'</span></a>';
 	}
 	
 ?>

@@ -15,15 +15,5 @@ $this->menu=array(
 <h1>Menus</h1>
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'dataProvider'=>$dataProvider,
-	'columns'=>array(
-        //remove the column name listed here
-				'id_menu',
-                'title',
-                'link',
-				'parent',
-                array(
-                        'class'=>'CButtonColumn',
-                ),
-        ),
+	'dataProvider'=>$dataProvider
 )); ?>

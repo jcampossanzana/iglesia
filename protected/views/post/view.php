@@ -15,22 +15,13 @@ $this->menu=array(
 	array('label'=>'Manage Post', 'url'=>array('admin')),
 );
 ?>
+<div id="post">
+<h1><?php echo $model->title; ?></h1>
 
-<h1>View Post #<?php echo $model->id_post; ?></h1>
-
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id_post',
-		'title',
-		'content',
-		'status',
-		'imagen',
-	),
-)); ?>
-
+<?php echo $model->content;?>
 view detail foto <br/>
 <?php
 	$dbImage = $this->createUrl('post/verImagen/4'); 
 	echo CHtml::image($dbImage,'image');
 ?>
+</div>

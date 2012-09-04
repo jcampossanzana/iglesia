@@ -25,5 +25,6 @@ $this->menu=array(
 		'title',
 		'link',
 		'parent',
+		'weight',
 	),
 )); ?>

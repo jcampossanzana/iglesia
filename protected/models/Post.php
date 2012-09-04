@@ -64,14 +64,12 @@ class Post extends CActiveRecord
 			'imagen0' => array(self::BELONGS_TO, 'Archivos', 'imagen'),
 		);
 	}
-	
 	public function getImage(){
-		$id_imagen = $this->imagen;
-		$imagen = Archivo::model()->find('id_archivo=:id_imagen', array(':id_imagen'=>$id_imagen));
-		$this->image = imagecreatefromstring(base64_decode($imagen->archivo));
+		$image_id = $this->imagen;
+		//ahora que tengo el Id correspondiente, busco la imagen en la tabla archivos
+		$imagen = Archivo::model()->findByPk($image_id);
 		return $imagen;
 	}
-
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -118,7 +116,8 @@ class Post extends CActiveRecord
 			$archivo->archivo = file_get_contents($file->tempName);
 			$archivo->save();
 			$this->imagen = $archivo->id_archivo;
+			print_r($archivo->errors);
         }
-		return parent::beforeSave();
+		return parent::save();
 	}
 }
