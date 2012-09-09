@@ -36,7 +36,17 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 	
-	public function actionPost(){
+	public function actionVerPost($id = ''){
+		if($id != ''){
+			$post = Post::model()->findByPk($id);
+			if($post != null){
+				$this->render('verPost', array('post' => $post));
+			} else {
+				$this->redirect(array('site/index'));
+			}
+		} else {
+			$this->redirect(array('site/index'));
+		}
 	}
 	
 	public function actionEnlaces(){

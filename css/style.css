@@ -27,6 +27,9 @@ body {
 .courier {
 	font-family:"Courier New",Courier,mono;
 }
+.nivo {
+	width: 610px; height: 240px;margin:0 auto;
+}
 .view {
 	border:1px solid grey;
 	margin:5px;
@@ -87,6 +90,7 @@ input[type=submit] {
 	width:920px;
 	margin:0 auto;
 }
+.mobile-only {display:none;}
 #slider {
 	text-align:center;
 }
@@ -302,6 +306,7 @@ a img {
 .post .title {
 	padding: 0px 0px 0px 15px;
 	background: url(../images/img03.gif) no-repeat left top;
+	color:#FFFFFF;
 }
 
 .post .title h2, .post .title h3 {
@@ -322,6 +327,11 @@ a img {
 	text-transform: lowercase;
 	font-size: 16px;
 	color: #8D8D8D;
+}
+.date {
+	font-size:10pt;
+	padding:15px;
+	margin-top:15px;
 }
 
 .post .title p a {

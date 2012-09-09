@@ -3906,3 +3906,151 @@ REQUEST_URI=/iglesia/
 in C:\xampp\htdocs\iglesia\protected\views\site\index.php (66)
 in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (36)
 in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/05 01:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "enhanced.css".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('enhanced.css')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/enhanced.css
+HTTP_REFERER=http://192.168.1.101/iglesia/
+---
+2012/09/05 01:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "enhanced.css".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('enhanced.css')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('enhanced.css')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/enhanced.c...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/enhanced.css
+HTTP_REFERER=http://localhost/iglesia/site/enlaces
+---
+2012/09/05 01:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "enhanced.css".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('enhanced.css')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('enhanced.css')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/enhanced.c...')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/site/enhanced.css
+HTTP_REFERER=http://localhost/iglesia/site/enlaces
+---
+2012/09/05 01:50:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iglesia/admin/
+HTTP_REFERER=http://192.168.1.101/iglesia/
+---
+2012/09/08 04:17:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verPost')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/verPost')
+#5 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/iglesia/site/verPost
+---
+2012/09/08 04:17:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verPost')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/verPost/uy...')
+#5 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/iglesia/site/verPost/uyt
+---
+2012/09/08 04:17:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('verPost')
+#4 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/verPost/uy...')
+#5 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/iglesia/site/verPost/uyt
+---
+2012/09/08 04:18:56 [error] [php] Undefined index: id (C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/verPost/uyt
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (40)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/08 04:18:59 [error] [php] Undefined index: id (C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\yii-framework\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\iglesia\index.php(13): CWebApplication->run()
+REQUEST_URI=/iglesia/site/verPost
+in C:\xampp\htdocs\iglesia\protected\controllers\SiteController.php (40)
+in C:\xampp\htdocs\iglesia\index.php (13)
+2012/09/08 04:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('post')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/site/post/3453
+---
+2012/09/08 04:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('post')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/site/post?id=3
+---
+2012/09/08 04:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('post')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/site/post?id
+---
+2012/09/08 04:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('post')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/site/post?id
+---
+2012/09/08 04:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "post".' in C:\xampp\htdocs\yii-framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-framework\framework\web\CController.php(271): CController->missingAction('post')
+#1 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(283): CController->run('post')
+#2 C:\xampp\htdocs\yii-framework\framework\web\CWebApplication.php(142): CWebApplication->runController('site/post')
+#3 C:\xampp\htdocs\yii-framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\iglesia\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iglesia/index.php/site/post?id=1
+---

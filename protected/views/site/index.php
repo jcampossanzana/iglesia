@@ -2,7 +2,7 @@
 	<div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
 <?php	$this->widget('application.extensions.nivoslider.CNivoSlider', array(
-		'htmlOptions'=>array('style'=>'width: 610px; height: 240px;margin:0 auto;', 'class' => 'shadow'),
+		'htmlOptions'=>array('class' => 'nivo shadow'),
 		'images'=>array( //@array images with images arrays.
 				array(
 						'src'=> Yii::app()->request->baseUrl.'/images/nemo.jpg',

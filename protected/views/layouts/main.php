@@ -13,23 +13,52 @@ Released   : 20081122
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" rel="stylesheet" type="text/css" media="screen" />
-	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" rel="stylesheet" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<!-- viewport para iphone -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" media="screen  and (min-width: 40.5em)" />
+	<!--[if (lt IE 9)&(!IEMobile)]>
+	<link rel="stylesheet" type="text/css" href="enhanced.css" />
+	<![endif]-->
+
+	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/menu.css" rel="stylesheet" media="screen  and (min-width: 40.5em)"/>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/menu.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mobile.css" media="screen and (max-device-width:480px)" />
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+
+			/* prepend menu icon */
+			$('#nav-wrapp').prepend('<div id="menu-icon">Menu</div>');
+			
+			/* toggle nav */
+			$("#menu-icon").on("click", function(){
+				$(".menu").slideToggle();
+				$(this).toggleClass("active");
+				$(".menu li").each(function(){
+					if($(this).text() == ""){
+						$(this).remove();
+					} else if($(this).text() == " "){
+						$(this).remove();
+					}
+				});
+			});
+			
+			
+
+		});
+	</script>
 </head>
 <body>
 <div id="search">
 	<div id="search-container">
 		<div id="widget">
-			<h4>B&uacute;squeda R&aacute;pida</h4>
+			<h4 class="mobile-hidden">B&uacute;squeda R&aacute;pida</h4>
 			<div id="searchwrapper">
 				<form action="#" method="post">
-					<input type="text" class="searchbox" name="param" placeholder="Ingrese aqui..." />
-					<input type="image" src="<?php echo Yii::app()->request->baseUrl; ?>/images/search.png" class="searchbox_submit" />
+					<input type="text" class="searchbox" name="param" placeholder="Buscar..." />
+					<input type="image" src="<?php echo Yii::app()->request->baseUrl; ?>/images/search.png" class="searchbox_submit mobile-hidden" />
+					<input type="submit" class="mobile-only" />
 				</form>
 			</div>
 		</div>
@@ -39,7 +68,7 @@ Released   : 20081122
 <div id="wrapper">
 	<div id="header">
 		<div id="logo">
-			<h1><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></h1>
+			<h1><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" class="logo"/></h1>
 		</div>
 				<!-- end menu-->
 	</div>
@@ -48,6 +77,7 @@ Released   : 20081122
 	
 	<!-- end #header -->
 	<div id="menu">
+		<div id="nav-wrapp" class="mobile-only"></div>
 		<ul class="menu">
 		<?php print_menu(); ?>
 		<?php
@@ -151,6 +181,9 @@ Released   : 20081122
 	
 ?>
 <!-- end #wrapper -->
+<!--
+llamar: <a href="tel:+18005550199">1-800-555-0199</a>
+-->
 </body>
 </html>
 
